@@ -8,3 +8,8 @@ let c = a + b;
 console.log("Answer: " + c);
 
 
+let y = parseInt('Vic', 10);
+let z = isNaN(y);
+
+console.log(y);
+console.log(z);
