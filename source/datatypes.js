@@ -1,4 +1,8 @@
-let x = 5;
+/**
+ * Variables does not have datatypes in JS
+ * only values have datatypes in Js
+
+*/let x = 5;
 console.log(typeof x);
 
 

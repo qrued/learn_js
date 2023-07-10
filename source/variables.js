@@ -6,4 +6,4 @@ y = 7; // assigment
 // before now, we could use the keyword "var" istead of "let"
 var v = 12;
 
-console.log(x, y, v)
+console.log(x, y, v) 
