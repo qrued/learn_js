@@ -1,4 +1,10 @@
-let a = 7;
+/**
+ * 
+ * isNaN checks if a value is not a number and
+ * returns either True or false
+ * parseInt converts a string to a number
+ * 
+ * */let a = 7;
 let b = '6';
 
 b = parseInt(b);
