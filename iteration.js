@@ -1,6 +1,7 @@
 /**
  * Iterations allows us to loopp through a block of code until a certain condition is met
  * e.g (for), (while),
+ * You can also add break statements
  * 
  * 
  */
@@ -16,4 +17,7 @@ a[9] = 29;
 let count = 0;
 while (count < a.length) {
     console.log(a[count++]);
+    if (count == 7) {
+        break;
+    }
 }
