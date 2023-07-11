@@ -49,12 +49,11 @@ let b = a - 3;     // Subtraction operator (-)
 let c = b * 2;     // Multiplication operator (*)
 let d = c / 4;     // Division operator (/)
 let e = d % 3;     // Modulo operator (%)
+
 These examples demonstrate various arithmetic operators used with operands to perform addition, subtraction, multiplication, division, and modulo operations.
 
 Comparison Operators:
 
-javascript
-Copy code
 let num1 = 10;
 let num2 = 5;
 
@@ -65,8 +64,6 @@ These examples showcase comparison operators used to compare two operands and ev
 
 Logical Operators:
 
-javascript
-Copy code
 let isTrue = true;
 let isFalse = false;
 
@@ -76,6 +73,13 @@ let result3 = !isTrue;           // Logical NOT operator (!)
 These examples demonstrate logical operators used to perform logical operations on boolean values, such as logical AND, logical OR, and logical NOT.
 
 These examples illustrate how statements are composed of expressions, and expressions are made up of operators and operands, showcasing the structure of JavaScript code.
+
+Member accessor operator(.)
+We use the (.) period operator to access members or functions of an object e.g console.log().
+
+Code block operator { }
+
+Array Element Access [ ]
  */
 
 
