@@ -46,4 +46,4 @@ switch (superHero.toLowerCase()) {//toLowerCase will convert every uppercase to 
 let a = 23, b = '23';
 let result_ = (a === b) ? 'equal' : 'not_equal';
 let result = (a != b) ? 'not equal' : 'equal';
-console.log(result)
+console.log(result);
