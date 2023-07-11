@@ -10,11 +10,11 @@
 let a = [, 48, 15, 16, 23, 42];
 let b = ['david', 'eddie', 'allex', 'micheal'];
 
-console.log(b[0].charAt(0))
-console.log(b)
+console.log(b[0].charAt(0));
+console.log(b);
 
 
-b[7] = 'Choco'
-console.log(b)
-len = b.length // Not zero base
-console.log(len)
+b[7] = 'Choco';
+console.log(b);
+len = b.length; // Not zero base
+console.log(len);
