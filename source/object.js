@@ -19,3 +19,6 @@ let car = {
     }
 
 }
+
+
+car.printDescription();
