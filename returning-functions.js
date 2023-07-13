@@ -1,6 +1,7 @@
 /**
  * In web development, declaring var at the global scope is a bad idea
  *
+ * Functions are datatypes in JS
  *
  */
 
@@ -11,3 +12,22 @@
 // var myFunction = function () {
 //     console.log('me too');
 // }
+
+
+function one() {
+    return 'one';
+}
+
+console.log(one());
+
+
+
+
+
+// function one() {
+//     return function () {
+//         return 'one';
+//     }
+// }
+
+// console.log(one()())
