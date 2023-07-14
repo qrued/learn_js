@@ -1,6 +1,11 @@
 /**
  * An array will hold a list of information mostly of many data items and datatypes each stored in a different element of an array
  * An Object Contains the related properties of a single data element
+ * Functions inside an object are methods
+ * You can access the properties of an object with the array access operator [] 
+ * You can add a property to an object using the . operator e.g ``car.fuel='PMS``
+ * Objects can contain other objects that contains arrays
+ * Objects can contain Objects that contains objects and arrays
  */
 
 
@@ -22,3 +27,5 @@ let car = {
 
 
 car.printDescription();
+console.log(car.year);
+console.log(car['year'])
